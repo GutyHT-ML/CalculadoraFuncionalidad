@@ -18,6 +18,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="4"
                 android:text="Probando"
+                android:id="@+id/output"
                 android:textSize="30dp"
                 android:gravity="end" />
         </LinearLayout>
@@ -47,16 +48,22 @@
                     android:text="7"
                     android:layout_row="3"
                     android:layout_column="0"
+                    android:id="@+id/num7"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="4"
                     android:layout_row="4"
                     android:layout_column="0"
+                    android:id="@+id/num4"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="1"
                     android:layout_row="5"
                     android:layout_column="0"
+                    android:id="@+id/num1"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="+/-"
@@ -68,6 +75,8 @@
                     android:text="CE"
                     android:layout_row="1"
                     android:layout_column="1"
+                    android:id="@+id/reset"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="x^2"
@@ -78,83 +87,114 @@
                     android:text="8"
                     android:layout_row="3"
                     android:layout_column="1"
+                    android:id="@+id/num8"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="5"
                     android:layout_row="4"
                     android:layout_column="1"
+                    android:id="@+id/num5"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="2"
                     android:layout_row="5"
                     android:layout_column="1"
+                    android:id="@+id/num2"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="0"
                     android:layout_row="6"
                     android:layout_column="1"
+                    android:id="@+id/num0"
+                    android:onClick="miClick"
                     />
                 <!--Tercera columna-->
                 <Button
                     android:text="C"
                     android:layout_row="1"
                     android:layout_column="2"
+                    android:id="@+id/erase"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="(x)^1/2"
                     android:layout_row="2"
                     android:layout_column="2"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="9"
                     android:layout_row="3"
                     android:layout_column="2"
+                    android:id="@+id/num9"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="6"
                     android:layout_row="4"
                     android:layout_column="2"
+                    android:id="@+id/num6"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="3"
                     android:layout_row="5"
                     android:layout_column="2"
+                    android:id="@+id/num3"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="."
                     android:layout_row="6"
                     android:layout_column="2"
+                    android:id="@+id/dot"
+                    android:onClick="miClick"
                     />
                 <!--Cuarta columna-->
                 <Button
                     android:text="DEL"
                     android:layout_row="1"
                     android:layout_column="3"
+                    android:id="@+id/delete"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="/"
                     android:layout_row="2"
                     android:layout_column="3"
+                    android:id="@+id/divide"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="*"
                     android:layout_row="3"
                     android:layout_column="3"
+                    android:id="@+id/times"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="-"
                     android:layout_row="4"
                     android:layout_column="3"
+                    android:id="@+id/less"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="+"
                     android:layout_row="5"
                     android:layout_column="3"
+                    android:id="@+id/plus"
+                    android:onClick="miClick"
                     />
                 <Button
                     android:text="="
                     android:layout_row="6"
                     android:layout_column="3"
+                    android:id="@+id/equals"
+                    android:onClick="miClick"
                     />
             </GridLayout>
         </LinearLayout>
